@@ -2,8 +2,7 @@
 单元测试学习
 
 
-
->package com.zzb.generator;
+package com.zzb.generator;
 import static org.junit.Assert.assertTrue;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -30,8 +29,6 @@ private MockMvc mvc;
 				  // .andExpect(jsonPath("param", is("xixixi")))
 				   	.andReturn();
 		assertTrue("hixixixi".equals(result.getResponse().getContentAsString()));
-		System.out.println(result.getResponse().getContentAsString());		
-			
-		
+		System.out.println(result.getResponse().getContentAsString());			
 	}
 }
