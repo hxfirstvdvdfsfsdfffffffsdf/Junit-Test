@@ -1,7 +1,6 @@
 # Junit-Test
 单元测试学习
-
-
+```
 package com.zzb.generator;
 import static org.junit.Assert.assertTrue;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
@@ -32,3 +31,4 @@ private MockMvc mvc;
 		System.out.println(result.getResponse().getContentAsString());			
 	}
 }
+```
